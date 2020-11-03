@@ -361,12 +361,42 @@ css in bootstrap*/
   width: 100%;
 }
 
-.navbar-logo-left img {
+.navbar-images-left {
+  width: 50px;
   height: 50px;
 }
 
-.navbar-logo-right img {
+#logo1 {
+  float: left;
+}
+
+#logo1 img {
+  height: 48px;
+}
+
+#logo2 img {
   height: 60px;
+}
+
+#logo2-mobile {
+  display: none;
+}
+
+#logo2-mobile img {
+  height: 50px;
+}
+
+@media only screen and (max-width: 991px) {
+  #logo2 {
+    display: none;
+  }
+  #logo2-mobile {
+    display: block;
+  }
+  .navbar-images-left {
+    width: calc(100% - 60px);
+    height: 50px;
+  }
 }
 
 #navigation li {
