@@ -23,8 +23,8 @@ background a bit darker*/
 /*Style applied to both navigation arrows*/
 .slides-navigation .prev,
 .slides-navigation .next {
-  width: 50px;
-  height: 50px;
+  width: 40px;
+  height: 40px;
   background-size: cover;
   background-repeat: no-repeat;
 }
@@ -59,9 +59,21 @@ css in bootstrap*/
   letter-spacing: 7px;
 }
 
+@media screen and (max-width: 600px){
 .titleMessage .heading .main {
-  font-size: 40px;
+  font-size: 3.5 vw;
+
 }
+}
+
+@media screen and (min-width: 601px){
+  .titleMessage .heading .main {
+    font-size: 50px;
+  
+  }
+  }
+
+
 
 .titleMessage .heading .sub {
   font-size: 25px;
