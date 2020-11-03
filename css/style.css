@@ -13,7 +13,7 @@ background a bit darker*/
   height: 100%;
   position: absolute;
   z-index: 3;
-  background-color: rgba(0, 0, 0, 0.5);
+  background-color: rgba(0, 33, 71, 0.5);
 }
 
 .slides-navigation {
