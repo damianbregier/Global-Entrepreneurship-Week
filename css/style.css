@@ -348,6 +348,14 @@ css in bootstrap*/
   width: 100%;
 }
 
+.navbar-logo-left img {
+  height: 50px;
+}
+
+.navbar-logo-right img {
+  height: 60px;
+}
+
 #navigation li {
   padding: 0 10px;
 }
