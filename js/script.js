@@ -1,6 +1,6 @@
 $(window).on("load", function(){
-    $(".loader .inner").fadeOut(2000, function(){
-        $(".loader").fadeOut(2500);
+    $(".loader .inner").fadeOut(500, function(){
+        $(".loader").fadeOut(800);
     });
 
     $(".items").isotope({
@@ -25,7 +25,7 @@ $(document).ready(function () {
 
     //Activate typing of title elements
     var typed = new Typed(".typed", {
-        strings: ["CS Student.", "Beginner Programmer.", "Future FullStack.", "Wannabe Developer.", "Book Worm."],
+        strings: ["III Edycja.", "Start 17 listopada.", "Międzynarodowy Dzień Studenta.", "Pierwszy raz online."],
         typeSpeed: 70,
         loop: true,
         startDelay: 1000,
