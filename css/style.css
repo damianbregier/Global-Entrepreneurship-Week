@@ -3,6 +3,7 @@ body {
   color: #333;
   background-color: #fff;
   letter-spacing: 1px;
+  position: relative;
 }
 
 /*Makes white elements way more visible by making
@@ -48,7 +49,7 @@ css in bootstrap*/
   top: 50%;
   z-index: 5;
   text-align: center;
-  margin-top: -125px;
+  margin-top: -50px;
 }
 
 .titleMessage .heading p {
