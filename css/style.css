@@ -32,12 +32,12 @@ background a bit darker*/
 /*a.next is more detailed and allow to overwrite
 css in bootstrap*/
 .slides-navigation a.prev {
-  left: 20px;
+  left: 0px;
   background-image: url("../icons/previous.png");
 }
 
 .slides-navigation a.next {
-  right: 20px;
+  right: 0px;
   background-image: url("../icons/next.png");
 }
 
@@ -60,7 +60,7 @@ css in bootstrap*/
 }
 
 .titleMessage .heading .main {
-  font-size: 50px;
+  font-size: 40px;
 }
 
 .titleMessage .heading .sub {
