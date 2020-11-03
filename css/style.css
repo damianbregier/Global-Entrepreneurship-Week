@@ -59,21 +59,17 @@ css in bootstrap*/
   letter-spacing: 7px;
 }
 
-@media screen and (max-width: 600px){
-.titleMessage .heading .main {
-  font-size: 3.5 vw;
-
+@media screen and (max-width: 600px) {
+  .titleMessage .heading .main {
+    font-size: 3.5 vw;
+  }
 }
-}
 
-@media screen and (min-width: 601px){
+@media screen and (min-width: 601px) {
   .titleMessage .heading .main {
     font-size: 50px;
-  
   }
-  }
-
-
+}
 
 .titleMessage .heading .sub {
   font-size: 25px;
@@ -356,7 +352,7 @@ css in bootstrap*/
 
 #navigation {
   background-color: #fff;
-  padding: 20px 10px;
+  padding: 10px 5px;
   z-index: 101;
   width: 100%;
 }
@@ -419,6 +415,7 @@ css in bootstrap*/
 .fixedNav #navigation {
   position: fixed;
   top: 0;
+  height: auto;
 }
 
 .loader {

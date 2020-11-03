@@ -1,7 +1,14 @@
 #slides {
   position: absolute;
-  top: -100px;
+  top: -80px;
 }
+
+@media only screen and (max-width: 991px) {
+  #slides {
+    top: 0px;
+  }
+}
+
 #slides .slides-container {
   display: none;
 }
