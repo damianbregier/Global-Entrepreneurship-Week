@@ -510,6 +510,27 @@ css in bootstrap*/
   margin-bottom: 50px;
 }
 
-span#special {
+*#special {
   color: #4cb8ea;
+}
+
+#lecturer {
+  margin: 30px 0 30px 0;
+  background-color: rgba(255, 255, 255, 0.05);
+  border-radius: 7px;
+  padding: 0px 20px;
+}
+
+#lecturer-image {
+  margin-top: 57px;
+  height: 190px;
+}
+
+.lecturer-name {
+  text-align: left;
+  padding-top: 30px;
+}
+
+.lecturer-info {
+  text-align: left;
 }
