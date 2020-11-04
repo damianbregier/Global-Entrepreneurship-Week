@@ -260,8 +260,8 @@ css in bootstrap*/
 
 /*Filter section*/
 .filter a {
-  color: #2d3436;
-  border: 1px solid #2d3436;
+  color: #002147e0;
+  border: 1px solid #002147e0;
   padding: 10px;
   display: block;
 }
@@ -272,8 +272,8 @@ css in bootstrap*/
 }
 
 .filter .current {
-  background-color: #2d3436;
-  border-color: #2d3436;
+  background-color: #002147e0;
+  border-color: #002147e0;
   color: white;
 }
 
@@ -334,7 +334,7 @@ css in bootstrap*/
 .items a {
   width: 40px;
   height: 40px;
-  background-color: #2d3436;
+  background-color: #002147e0;
   position: relative;
   display: inline-block;
 
