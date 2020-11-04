@@ -25,7 +25,7 @@ $(document).ready(function () {
 
     //Activate typing of title elements
     var typed = new Typed(".typed", {
-        strings: ["III Edycja.", "Start 17 listopada.", "Międzynarodowy Dzień Studenta.", "Pierwszy raz online."],
+        strings: ["17 listopada 2020 r.","Światowy Tydzień Przedsiębiorczości.", "Międzynarodowy Dzień Studenta."],
         typeSpeed: 70,
         loop: true,
         startDelay: 1000,
