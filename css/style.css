@@ -405,9 +405,10 @@ css in bootstrap*/
 }
 
 .copyrightSection {
-  background-color: white;
-  color: #002147;
+  color: white;
   padding: 30px 5px;
+  background-color: #333;
+
 }
 
 .copyrightSection p {
