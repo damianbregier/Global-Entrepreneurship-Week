@@ -291,6 +291,12 @@ css in bootstrap*/
   .title {
     width: 94%;
   }
+  .title-alt {
+    width: 94%;
+  }
+  .title__bordered {
+    width: 94%;
+  }
   .event-category-item {
     width: 94%;
   }
