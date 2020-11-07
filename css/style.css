@@ -448,11 +448,11 @@ css in bootstrap*/
 }
 
 #logo1 img {
-  height: 108px;
+  height: 130px;
 }
 
 #logo2 img {
-  height: 120px;
+  height: 144px;
 }
 
 #logo2-mobile {
@@ -460,7 +460,7 @@ css in bootstrap*/
 }
 
 #logo2-mobile img {
-  height: 120px;
+  height: 144px;
 }
 
 @media only screen and (max-width: 991px) {
