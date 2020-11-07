@@ -168,13 +168,21 @@ css in bootstrap*/
 
 @media screen and (max-width: 600px) {
   h2 {
-    font-size: 35px;
+    font-size: 30px;
     padding-bottom: 30px;
     letter-spacing: 2px;
   }
 }
 
-@media screen and (min-width: 601px) {
+@media screen and (max-width: 1000px) {
+  h2 {
+    font-size: 40px;
+    padding-bottom: 40px;
+    letter-spacing: 4px;
+  }
+}
+
+@media screen and (min-width: 1001px) {
   h2 {
     font-size: 50px;
     padding-bottom: 50px;
@@ -448,6 +456,7 @@ css in bootstrap*/
 }
 
 #logo1 img {
+  margin: auto;
   height: 130px;
 }
 
