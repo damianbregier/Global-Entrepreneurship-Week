@@ -379,7 +379,6 @@ css in bootstrap*/
   z-index: 3;
 }
 
-/*Here might be a problem with icons positions on the pictures*/
 .items .icons i {
   color: #fff;
   font-size: 20px;
@@ -387,7 +386,7 @@ css in bootstrap*/
 }
 
 .items a {
-  width: 40px;
+  width: 100px;
   height: 40px;
   background-color: #002147e0;
   position: relative;
