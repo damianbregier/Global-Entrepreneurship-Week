@@ -12,6 +12,7 @@
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.12.0-2/css/all.min.css">
   <link rel="stylesheet" type="text/css" href="css/style.css">
   <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/fancyapps/fancybox@3.5.7/dist/jquery.fancybox.min.css" />
+  <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
 </head>
 
 <body>
@@ -102,7 +103,7 @@
   
   ----------------------------------------------------------------------------->
 
-  <div id="about" class="section">
+  <div id="about" class="section" data-aos="fade-up">
     <div class="container">
       <div class="row">
         <!--Need to add up to 12-->
@@ -143,7 +144,7 @@
     Event program 
 
 -------------------------------------------------------------------->
-  <div id="skills" class="skillsSection section">
+  <div id="skills" class="skillsSection section" data-aos="fade-up">
     <div class="container">
       <div class="row">
         <div class="col-md-12 text-center">
@@ -251,7 +252,7 @@
   
   ----------------------------------------------------------------------------->
 
-  <div id="stats" class="statsSection section">
+  <div id="stats" class="statsSection section"  data-aos="fade-up">
     <div class="container">
       <div class="col-md-12 text-center">
         <h2>Światowy Tydzień Przedsiębiorczości w liczbach</h2>
@@ -366,18 +367,18 @@
   
   -------------------------------------------------------------------------------->
 
-  <div id="prelegents" class="contactSection section">
+  <div id="prelegents" class="contactSection section" data-aos="fade-up">
+    <div class="container">
     <div class="col-md-12 text-center" id="drelich">
       <h2>Prelegenci</h2>
-        <div class="row" id="lecturer">
+        <div class="row" id="lecturer" data-aos="fade-right">
           <div class="col-md-3" >
-            <div class="lecturer-images-center">
             <img class="aboutImage" src="img/Michał Drelich.jpg" id="lecturer-image">
             <img class="aboutImage" src="img/sport evolution.jpg" id="lecturer-company">
           </div>
-          </div>
           <div class="col-md-9">
             <h4 class="lecturer-name" id="special">Michał Drelich</h4>
+            <span id="pieprzak"></span>
             <p class="lecturer-info">Założyciel i współwłaściciel agencji SE Group, jednej z wiodących agencji 
               marketingu sportowego w Polsce, która co roku organizuje kilkadziesiąt różnego 
               typu wydarzeń sportowych; specjalista od marketingu i sponsoringu sportowego;
@@ -392,7 +393,7 @@
           </div>
         </div>
         <div>
-          <div class="row" id="lecturer">
+          <div class="row" id="lecturer" data-aos="fade-right">
             <div class="col-md-3">
               <img class="aboutImage" src="img/Michał Pieprzak.jpg" id="lecturer-image">
             </div>
@@ -407,7 +408,7 @@
           </div>
         </div>
         <div>
-          <div class="row" id="lecturer">
+          <div class="row" id="lecturer" data-aos="fade-right">
             <div class="col-md-3">
               <img class="aboutImage" src="img/Bartosz Sobotka.jpg" id="lecturer-image">
             </div>
@@ -429,7 +430,7 @@
           </div>
         </div>
         <div>
-          <div class="row" id="lecturer">
+          <div class="row" id="lecturer" data-aos="fade-right">
             <div class="col-md-3">
               <img class="aboutImage" src="img/Damian Malara.jpg" id="lecturer-image">
             </div>
@@ -443,7 +444,7 @@
             </div>
           </div>
         </div><div>
-          <div class="row" id="lecturer">
+          <div class="row" id="lecturer" data-aos="fade-right">
             <div class="col-md-3">
               <img class="aboutImage" src="img/Tomasz Grudzień.jpg" id="lecturer-image">
             </div>
@@ -459,6 +460,7 @@
         </div>
     </div>
   </div>
+  </div>
 
   </div>
 
@@ -467,7 +469,7 @@
     Gallery/media
   
   ------------------------------------------------------------------------------>
-  <div id="portfolio" class="section">
+  <div id="portfolio" class="section"  data-aos="fade-up"> 
     <div class="container">
       <div class="row">
         <div class="heading">
@@ -558,7 +560,7 @@
     Video player
   
   ----------------------------------------------------------------------------->
-  <div id="video" class="videoSection section">
+  <div id="video" class="videoSection section"  data-aos="fade-up">
     <div class="container">
       <div class="row">
     <div class="col-md-12 text-center">
@@ -574,7 +576,7 @@
     Contact
   
   ----------------------------------------------------------------------------->
-  <div id="contact" class="section">
+  <div id="contact" class="section"  data-aos="zoom-in">
     <div class="col-md-12 text-center">
       <h2>Kontakt</h2>
       <h4>Sebastian Dymek</h4>
@@ -631,6 +633,7 @@
   <script src="js/isotope.pkgd.js"></script>
   <script src="https://cdn.jsdelivr.net/gh/fancyapps/fancybox@3.5.7/dist/jquery.fancybox.min.js"></script>
   <script src="js/script.js"></script>
+  <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
 </body>
 
 </html>
