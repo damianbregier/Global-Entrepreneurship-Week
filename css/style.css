@@ -167,7 +167,16 @@ css in bootstrap*/
   left: 0px;
 }
 
-@media screen and (max-width: 600px) {
+
+@media screen and (min-width: 0px) {
+  h2 {
+    font-size: 25px;
+    padding-bottom: 30px;
+    letter-spacing: 0px;
+  }
+}
+
+@media screen and (min-width: 600px) {
   h2 {
     font-size: 30px;
     padding-bottom: 30px;
@@ -175,7 +184,7 @@ css in bootstrap*/
   }
 }
 
-@media screen and (max-width: 1000px) {
+@media screen and (min-width: 1000px) {
   h2 {
     font-size: 40px;
     padding-bottom: 40px;
