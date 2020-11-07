@@ -14,7 +14,7 @@ background a bit darker*/
   position: absolute;
   z-index: 3;
   /*Poprzednia wartość opacity to: 0.267*/
-  background-color: rgba(0, 33, 71, 0.180);
+  background-color: rgba(0, 33, 71, 0.18);
 }
 
 .slides-navigation {
@@ -220,7 +220,7 @@ css in bootstrap*/
   padding: 0;
   width: 100%;
   position: relative;
-  margin: 10px 0 10px 0;
+  margin: 15px 0 15px 0;
 }
 
 .event-category-item {
@@ -236,6 +236,30 @@ css in bootstrap*/
   width: 100%;
   margin-left: auto;
   margin-right: auto;
+  font-weight: 700;
+  margin-bottom: 3px;
+}
+
+.title-alt {
+  display: block;
+  margin: 0;
+  padding: 0;
+  width: 100%;
+  margin-left: auto;
+  margin-right: auto;
+  padding-bottom: 5px;
+  border-bottom: 1px solid rgba(255, 255, 255, 0.193);
+  font-weight: 700;
+  margin-bottom: 5px;
+}
+
+.title__bordered {
+  display: block;
+  margin: 0;
+  padding: 0;
+  width: 100%;
+  margin-left: auto;
+  margin-right: auto;
   padding-bottom: 5px;
   border-bottom: 1px solid rgba(255, 255, 255, 0.193);
   font-weight: 700;
@@ -245,6 +269,7 @@ css in bootstrap*/
 .time {
   float: left;
   width: 80px;
+  height: 22px;
   font-weight: 500;
 }
 
@@ -255,6 +280,10 @@ css in bootstrap*/
 .presenter-bio {
   display: block;
   margin-left: 80px;
+}
+
+#last-category {
+  margin-top: 50px;
 }
 
 @media screen and (max-width: 600px) {
