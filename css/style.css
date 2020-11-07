@@ -300,6 +300,12 @@ css in bootstrap*/
   .title {
     width: 94%;
   }
+  .title-alt {
+    width: 94%;
+  }
+  .title__bordered {
+    width: 94%;
+  }
   .event-category-item {
     width: 94%;
   }
@@ -604,8 +610,9 @@ css in bootstrap*/
 #lecturer-image {
   width: 150px;
   position: absolute;
-  margin: auto;
-  top: 0;
+  margin-left: auto;
+  margin-right: auto;
+  top: 58px;
   left: 0;
   right: 0;
   bottom: 0;
@@ -616,8 +623,9 @@ css in bootstrap*/
   margin-top: 10px;
   width: 150px;
   position: absolute;
-  margin: auto;
-  top: 140px;
+  margin-left: auto;
+  margin-right: auto;
+  top: 168px;
   left: 0;
   right: 0;
   bottom: 0;
