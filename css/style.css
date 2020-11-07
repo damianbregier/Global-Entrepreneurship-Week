@@ -268,19 +268,19 @@ css in bootstrap*/
 
 /*Contact section*/
 .contactButton {
-  color: #fff;
-  padding: 15px 20px;
+  color: #002147e0;
+  padding: 15px 50px;
   display: inline-block;
   margin-top: 20px;
-  border: 1px solid #fff;
+  border: 1px solid #002147e0;
   border-radius: 2px;
   margin-bottom: 30px;
 }
 
 .contactButton:hover {
   text-decoration: none;
-  color: #2d3436;
-  background-color: white;
+  color: #fff;
+  background-color: #002147e0;
 }
 
 /*Filter section*/
