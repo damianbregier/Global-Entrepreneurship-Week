@@ -21,7 +21,7 @@ var CountUp = function(target, startVal, endVal, decimals, duration, options) {
 	self.options = {
 		useEasing: true, // toggle easing
 		useGrouping: true, // 1,000,000 vs 1000000
-		separator: ',', // character to use as a separator
+		separator: ' ', // character to use as a separator
 		decimal: '.', // character to use as a decimal
 		easingFn: easeOutExpo, // optional custom easing function, default is Robert Penner's easeOutExpo
 		formattingFn: formatNumber, // optional custom formatting function, default is formatNumber above

@@ -91,10 +91,11 @@ css in bootstrap*/
 
 .aboutImage {
   max-width: 90%;
-  max-height: 170px;
+  max-height: 90%;
 }
 
 /*Skills section*/
+@media screen and (max-width: 600px) {
 .skillsSection,
 .contactSection {
   color: #fff;
@@ -102,8 +103,20 @@ css in bootstrap*/
   display: flex;
   align-items: center;
   background-color: #002147e0;
-  background-image: url("data:image/svg+xml,%3Csvg width='6' height='6' viewBox='0 0 6 6' xmlns='http://www.w3.org/2000/svg'%3E%3Cg fill='%23002147' fill-opacity='0.4' fill-rule='evenodd'%3E%3Cpath d='M5 0h1L0 6V5zM6 5v1H5z'/%3E%3C/g%3E%3C/svg%3E");
 }
+}
+
+@media screen and (min-width: 601px) {
+  .skillsSection,
+  .contactSection {
+    color: #fff;
+    min-height: 100vh;
+    display: flex;
+    align-items: center;
+    background-color: #002147e0;
+    background-image: url("data:image/svg+xml,%3Csvg width='6' height='6' viewBox='0 0 6 6' xmlns='http://www.w3.org/2000/svg'%3E%3Cg fill='%23002147' fill-opacity='0.4' fill-rule='evenodd'%3E%3Cpath d='M5 0h1L0 6V5zM6 5v1H5z'/%3E%3C/g%3E%3C/svg%3E");
+  }
+  }
 
 .skill {
   text-align: center;
@@ -491,8 +504,8 @@ css in bootstrap*/
 }
 
 .navbar-images-left {
-  width: 132px;
-  height: 132px;
+  width: 332px;
+  height: 112px;
 }
 
 #logo1 {
@@ -502,10 +515,14 @@ css in bootstrap*/
 #logo1 img {
   margin: auto;
   height: 130px;
+  margin-top: -10px;
+  margin-left: -20px;
 }
 
 #logo2 img {
-  height: 144px;
+  height: 130px;
+  margin-top: -10px;
+  margin-bottom: -10px;
 }
 
 #logo2-mobile {
@@ -521,13 +538,14 @@ css in bootstrap*/
     height: 60px !important;
   }
   #logo1 img {
-    height: 58px !important;
+    height: 68px !important;
+    margin-top: -10px;
   }
   #logo2 img {
     height: 40px !important;
   }
   #logo2-mobile img {
-    height: 57px !important;
+    height: 50px !important;
   }
   #logo2 {
     display: none;
@@ -653,6 +671,8 @@ css in bootstrap*/
   height: 55vh;
 }
 
+
+@media only screen and (max-width: 600px) {
 .videoSection {
   color: #fff;
   min-height: 100vh;
@@ -660,5 +680,23 @@ css in bootstrap*/
   align-items: center;
   justify-content: center;
   background-color: #002147e0;
-  background-image: url("data:image/svg+xml,%3Csvg width='6' height='6' viewBox='0 0 6 6' xmlns='http://www.w3.org/2000/svg'%3E%3Cg fill='%23002147' fill-opacity='0.4' fill-rule='evenodd'%3E%3Cpath d='M5 0h1L0 6V5zM6 5v1H5z'/%3E%3C/g%3E%3C/svg%3E");
+}
+}
+
+@media only screen and (min-width: 601px) {
+  .videoSection {
+    color: #fff;
+    min-height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #002147e0;
+    background-image: url("data:image/svg+xml,%3Csvg width='6' height='6' viewBox='0 0 6 6' xmlns='http://www.w3.org/2000/svg'%3E%3Cg fill='%23002147' fill-opacity='0.4' fill-rule='evenodd'%3E%3Cpath d='M5 0h1L0 6V5zM6 5v1H5z'/%3E%3C/g%3E%3C/svg%3E");
+  }
+  }
+
+.lecture-title {
+  font-style: italic;
+  font-weight: bold;
+  letter-spacing: 2px;
 }

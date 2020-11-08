@@ -28,8 +28,8 @@ $(document).ready(function () {
   var typed = new Typed(".typed", {
     strings: [
       "17 listopada 2020 r.",
-      "Światowy Tydzień Przedsiębiorczości.",
-      "Międzynarodowy Dzień Studenta.",
+      "Światowy Tydzień Przedsiębiorczości",
+      "Międzynarodowy Dzień Studenta",
     ],
     typeSpeed: 70,
     loop: true,
