@@ -44,6 +44,16 @@ function reduceTextSize() {
   body.style.fontSize = numFontSizeValue + "px";
 }
 
+function toggleGreyscale() {
+  var body = document.body;
+  style = body.currentStyle || window.getComputedStyle(body);
+  if (style.filter === "none") {
+    document.body.style.filter = "grayscale(1)";
+  } else {
+    document.body.style.filter = "none";
+  }
+}
+
 //Read this function when document (page) is ready
 $(document).ready(function () {
   //Activates superslide
