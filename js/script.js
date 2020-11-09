@@ -26,6 +26,24 @@ function toggleToolbar() {
   }
 }
 
+function increaseTextSize() {
+  var increaseNum = 2;
+  var body = document.body;
+  style = body.currentStyle || window.getComputedStyle(body);
+  var numFontSizeValue = parseInt(style.fontSize, 10);
+  numFontSizeValue += increaseNum;
+  body.style.fontSize = numFontSizeValue + "px";
+}
+
+function reduceTextSize() {
+  var reduceNum = 2;
+  var body = document.body;
+  style = body.currentStyle || window.getComputedStyle(body);
+  var numFontSizeValue = parseInt(style.fontSize, 10);
+  numFontSizeValue += -reduceNum;
+  body.style.fontSize = numFontSizeValue + "px";
+}
+
 //Read this function when document (page) is ready
 $(document).ready(function () {
   //Activates superslide
