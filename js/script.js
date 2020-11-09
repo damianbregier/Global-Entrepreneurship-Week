@@ -29,7 +29,7 @@ function toggleToolbar() {
 function increaseTextSize() {
   var increaseNum = 2;
   var body = document.body;
-  style = body.currentStyle || window.getComputedStyle(body);
+  var style = body.currentStyle || window.getComputedStyle(body);
   var numFontSizeValue = parseInt(style.fontSize, 10);
   numFontSizeValue += increaseNum;
   body.style.fontSize = numFontSizeValue + "px";
@@ -38,7 +38,7 @@ function increaseTextSize() {
 function reduceTextSize() {
   var reduceNum = 2;
   var body = document.body;
-  style = body.currentStyle || window.getComputedStyle(body);
+  var style = body.currentStyle || window.getComputedStyle(body);
   var numFontSizeValue = parseInt(style.fontSize, 10);
   numFontSizeValue += -reduceNum;
   body.style.fontSize = numFontSizeValue + "px";
@@ -46,11 +46,27 @@ function reduceTextSize() {
 
 function toggleGreyscale() {
   var body = document.body;
-  style = body.currentStyle || window.getComputedStyle(body);
+  var style = body.currentStyle || window.getComputedStyle(body);
   if (style.filter === "none") {
-    document.body.style.filter = "grayscale(1)";
+    body.style.filter = "grayscale(1)";
   } else {
-    document.body.style.filter = "none";
+    body.style.filter = "none";
+  }
+}
+
+function underlineLinks() {
+  var links = document.getElementsByTagName("a");
+  for (var i = 0; i < links.length; i++) {
+    if (links[i].href) {
+      if (
+        links[i].style.textDecoration === "" ||
+        links[i].style.textDecoration === "none"
+      ) {
+        links[i].style.textDecoration = "underline";
+      } else {
+        links[i].style.textDecoration = "none";
+      }
+    }
   }
 }
 
