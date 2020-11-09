@@ -90,6 +90,7 @@ css in bootstrap*/
   height: 100vh;
   z-index: 7;
   transition: 0.25s ease-in-out;
+  margin-left: -150px;
 }
 
 .disabled-icon-inner {
