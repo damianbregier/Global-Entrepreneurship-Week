@@ -70,6 +70,10 @@ function toggleLinkUnderline() {
   }
 }
 
+function resetToDefault() {
+  window.location.href = window.location.href;
+}
+
 //Read this function when document (page) is ready
 $(document).ready(function () {
   //Activates superslide
