@@ -15,6 +15,17 @@ $(window).on("load", function () {
   });
 });
 
+function toggleToolbar() {
+  var toolbar = document.getElementById("disabled-toolbox");
+  var style = toolbar.currentStyle || window.getComputedStyle(toolbar);
+
+  if (style.marginLeft === "0px") {
+    toolbar.style.marginLeft = "-150px";
+  } else {
+    toolbar.style.marginLeft = "0px";
+  }
+}
+
 //Read this function when document (page) is ready
 $(document).ready(function () {
   //Activates superslide
