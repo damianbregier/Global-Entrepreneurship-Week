@@ -70,11 +70,13 @@ function toggleLinkUnderline() {
   }
 }
 
+//Change font for more clear and adds 2px in size
 function clearFont(){
   var body = document.body;
   var style = body.currentStyle || window.getComputedStyle(body);
 
-  body.style.fontFamily = "Verdna";
+    body.style.fontFamily = "Verdna";
+    body.style.fontSize = "16px";
 }
 
 function resetToDefault() {
