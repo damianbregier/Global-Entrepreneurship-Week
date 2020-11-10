@@ -70,6 +70,13 @@ function toggleLinkUnderline() {
   }
 }
 
+function clearFont(){
+  var body = document.body;
+  var style = body.currentStyle || window.getComputedStyle(body);
+
+  body.style.fontFamily = "Verdna";
+}
+
 function resetToDefault() {
   window.location.href = window.location.href;
 }
