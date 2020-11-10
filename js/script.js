@@ -15,6 +15,65 @@ $(window).on("load", function () {
   });
 });
 
+function toggleToolbar() {
+  var toolbar = document.getElementById("disabled-toolbox");
+  var style = toolbar.currentStyle || window.getComputedStyle(toolbar);
+
+  if (style.marginLeft === "0px") {
+    toolbar.style.marginLeft = "-150px";
+  } else {
+    toolbar.style.marginLeft = "0px";
+  }
+}
+
+function increaseTextSize() {
+  var increaseNum = 2;
+  var body = document.body;
+  var style = body.currentStyle || window.getComputedStyle(body);
+  var numFontSizeValue = parseInt(style.fontSize, 10);
+  numFontSizeValue += increaseNum;
+  body.style.fontSize = numFontSizeValue + "px";
+}
+
+function reduceTextSize() {
+  var reduceNum = 2;
+  var body = document.body;
+  var style = body.currentStyle || window.getComputedStyle(body);
+  var numFontSizeValue = parseInt(style.fontSize, 10);
+  numFontSizeValue += -reduceNum;
+  body.style.fontSize = numFontSizeValue + "px";
+}
+
+function toggleGreyscale() {
+  var body = document.body;
+  var style = body.currentStyle || window.getComputedStyle(body);
+  if (style.filter === "none") {
+    body.style.filter = "grayscale(1)";
+  } else {
+    body.style.filter = "none";
+  }
+}
+
+function toggleLinkUnderline() {
+  var links = document.getElementsByTagName("a");
+  for (var i = 0; i < links.length; i++) {
+    if (links[i].href) {
+      if (
+        links[i].style.textDecoration === "" ||
+        links[i].style.textDecoration === "none"
+      ) {
+        links[i].style.textDecoration = "underline";
+      } else {
+        links[i].style.textDecoration = "none";
+      }
+    }
+  }
+}
+
+function resetToDefault() {
+  window.location.href = window.location.href;
+}
+
 //Read this function when document (page) is ready
 $(document).ready(function () {
   //Activates superslide

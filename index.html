@@ -75,6 +75,37 @@
 
 </nav>
 
+<!-- Toolbox -->
+<div class="disabled-toolbox" id="disabled-toolbox">
+  <div class="disabled-icon-inner" onClick="toggleToolbar()" id="disabled-icon">
+    <svg
+        enableBackground="new 0 0 512 512"
+        viewBox="0 0 512 512"
+        xmlns="http://www.w3.org/2000/svg"
+      >
+      <path d="M438.888,437L415.78,326.761C410.687,302.563,389.393,285,365.148,285h-97.442c-10.248,0-18.474-7.077-19.557-16.827
+      L243.908,230H344v-40H239.463l-8.295-74.658C252.782,106.26,268,84.875,268,60c0-33.084-26.916-60-60-60s-60,26.916-60,60
+      c0,27.241,18.255,50.286,43.17,57.581l17.224,155.01c3.321,29.878,28.82,52.409,59.313,52.409h97.442
+      c5.351,0,10.289,4.299,11.486,9.983L406.403,477H486v-40H438.888z M208,80c-11.028,0-20-8.972-20-20s8.972-20,20-20
+      s20,8.972,20,20S219.028,80,208,80z"/>
+      <path d="M187,472c-66.72,0-121-54.28-121-121c0-58.739,42.075-107.829,97.667-118.733l-4.429-39.864
+        C83.646,205.597,26,271.69,26,351c0,88.775,72.225,161,161,161c84.058,0,153.266-64.756,160.385-147h-40.199
+        C300.223,425.148,248.984,472,187,472z"/>
+    </svg>
+  </div>
+  <div class="disabled-toolbox-inner">
+    <p class="disabled-toolbox-inner-header"><span>Narzędzia ułatwień dostępu</span></p>
+    <div class="disabled-toolbox-inner-option" onClick="increaseTextSize()"><span>Zwiększ tekst</span></div>
+    <div class="disabled-toolbox-inner-option" onClick="reduceTextSize()"><span>Zmniejsz tekst</span></div>
+    <div class="disabled-toolbox-inner-option" onClick="toggleGreyscale()"><span>Skala szarości</span></div>
+    <div class="disabled-toolbox-inner-option"><span>Wysoki kontrast</span></div>
+    <div class="disabled-toolbox-inner-option"><span>Jasne tło</span></div>
+    <div class="disabled-toolbox-inner-option" onClick="toggleLinkUnderline()"><span>Podkreślone linki</span></div>
+    <div class="disabled-toolbox-inner-option"><span>Czytelna czcionka</span></div>
+    <div class="disabled-toolbox-inner-option" onClick="resetToDefault()"><span>Reset</span></div>
+  </div>
+</div>
+
 <!----------------------------------------------------------------------
 
   Slider
@@ -104,6 +135,7 @@
       <a href="#" class="next"></a>
       <a href="#" class="prev"></a>
     </nav>
+
   </div>
 
   <!---------------------------------------------------------------------------
