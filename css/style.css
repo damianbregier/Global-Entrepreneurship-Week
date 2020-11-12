@@ -794,3 +794,38 @@ css in bootstrap*/
   font-weight: bold;
   letter-spacing: 2px;
 }
+
+/* social */
+
+.social-icons img {
+  height: 22px;
+  width: 22px;
+}
+
+.social-icons div {
+  display: inline-block;
+  margin-top: 5px;
+}
+
+.social-icons div a {
+  padding: 2px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+@media only screen and (max-width: 991px) {
+  .social-icons {
+    margin-left: -15px;
+  }
+  .social-icons img {
+    height: 22px;
+    width: 22px;
+  }
+  .social-icons div {
+    margin-top: 10px;
+  }
+  .social-icons div a {
+    padding: 0;
+  }
+}
