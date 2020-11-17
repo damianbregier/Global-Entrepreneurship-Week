@@ -376,6 +376,12 @@ css in bootstrap*/
 .presenter-bio {
   display: block;
   margin-left: 80px;
+  margin-bottom: 10px;
+}
+
+.presenter-lecture-url a {
+  text-decoration: none;
+  color: #4cb8ea;
 }
 
 #last-category {
