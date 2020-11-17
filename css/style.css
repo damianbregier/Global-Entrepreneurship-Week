@@ -669,7 +669,7 @@ css in bootstrap*/
   color: black;
 }
 
-#navigation li #live {
+#navigation li .live {
   color: rgb(238, 73, 73);
   font-size: 17px;
   margin-top: -1px;
