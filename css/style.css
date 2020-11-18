@@ -166,6 +166,22 @@ css in bootstrap*/
   max-width: 90%;
   max-height: 90%;
 }
+.reportImage {
+  max-width: 90%;
+  max-height: 90%;
+}
+.reportImage2 {
+  display: block;
+  max-width: 50%;
+  max-height: 50%;
+  padding-bottom: 30px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.report{
+  text-align: left;
+}
 
 /*Skills section*/
 @media screen and (max-width: 600px) {
