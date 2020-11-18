@@ -489,6 +489,9 @@ css in bootstrap*/
   position: relative;
   display: block;
   overflow: hidden;
+  max-width: auto;
+  max-height: auto;
+  
 }
 
 .items .icons {
