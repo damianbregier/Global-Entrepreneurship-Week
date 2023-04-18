@@ -111,6 +111,8 @@ For more information, please contact the appropriate university personnel for fu
 
 We would like to thank our university for commissioning this project and giving us the opportunity to work on it.
 
+* [Akademia Mazowiecka w Płocku](https://mazowiecka.edu.pl)
+
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
 
